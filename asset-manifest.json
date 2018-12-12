@@ -1,0 +1,22 @@
+{
+  "main.css": "./static/css/main.1b614ccb.chunk.css",
+  "main.js": "./static/js/main.f37b67cb.chunk.js",
+  "main.js.map": "./static/js/main.f37b67cb.chunk.js.map",
+  "static/js/1.756a8d55.chunk.js": "./static/js/1.756a8d55.chunk.js",
+  "static/js/1.756a8d55.chunk.js.map": "./static/js/1.756a8d55.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "runtime~main.js.map": "./static/js/runtime~main.4a686d48.js.map",
+  "static/media/sunglusses.png": "./static/media/sunglusses.899eb016.png",
+  "static/media/dress-1.png": "./static/media/dress-1.93c7b869.png",
+  "static/media/dress-2.png": "./static/media/dress-2.2d4b1f4f.png",
+  "static/media/good_item_1.png": "./static/media/good_item_1.9cebcff8.png",
+  "static/media/good_item_2.png": "./static/media/good_item_2.2592f6a3.png",
+  "static/media/good_item_3.png": "./static/media/good_item_3.541a8e33.png",
+  "static/media/good_item_4.png": "./static/media/good_item_4.541a8e33.png",
+  "static/media/index.css": "./static/media/Dear Joe.dc7703a2.ttf",
+  "static/media/hat.png": "./static/media/hat.83ce0992.png",
+  "static/css/main.1b614ccb.chunk.css.map": "./static/css/main.1b614ccb.chunk.css.map",
+  "index.html": "./index.html",
+  "precache-manifest.2065ecaac1d942614c745e6b7dd2a21c.js": "./precache-manifest.2065ecaac1d942614c745e6b7dd2a21c.js",
+  "service-worker.js": "./service-worker.js"
+}
