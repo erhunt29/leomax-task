@@ -1,0 +1,83 @@
+.navigation
+  display: flex
+  flex-direction: column
+
+
+.navigation__list__wrapper-1
+  position: absolute
+  left: 0
+  height: 50px
+  width: 100%
+  background-color: #f8f8f8
+  z-index: -10
+  border-bottom: 1px solid #e4e4e4
+  border-top: 1px solid #e4e4e4
+  @media screen and (max-width: $mobile)
+    display: none
+
+.navigation__list
+  display: flex
+  align-items: center
+  height: 50px
+  background-color: rgba(0,0,0,0.0)
+  @media screen and (max-width: $mobile)
+    flex-direction: column
+    height: auto
+    margin-bottom: 20px
+
+
+.navigation__item
+  margin-right: 17px
+  font-size: 16px
+  font-weight: 400
+  height: 47px
+  display: flex
+  align-items: center
+  @media screen and (max-width: $tablet)
+    font-size: 14px
+    margin-right: 24px
+  @media screen and (max-width: $mobile)
+    border-bottom: 3px solid #e4e4e4
+    width: 100%
+    margin-right: 0
+    padding-left: 15px
+    box-sizing: border-box
+
+
+
+.navigation__item_selected
+  border-bottom: 3px solid #ff6c00
+  @media screen and (max-width: $mobile)
+    border: 3px solid #ff6c00
+    box-sizing: border-box
+
+
+
+
+.select__list__wrapper-1
+  position: absolute
+  top: 0
+  left: 0
+  height: 220px
+  width: 100%
+  border-bottom: 1px solid #e4e4e4
+  @media screen and (max-width: $mobile)
+    display: none
+
+
+.select
+  font-size: 14px
+  display: flex
+  align-items: center
+  height: 41px
+  margin-bottom: 30px
+  @media screen and (max-width: $mobile)
+    justify-content: space-between
+    padding: 0 15px
+    box-sizing: border-box
+
+
+.select__item
+  margin-right: 37px
+  @media screen and (max-width: $mobile)
+    margin-right: 0

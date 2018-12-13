@@ -1,0 +1,56 @@
+.add-to-order__header
+  height: 80px
+  font-size: 22px
+  font-weight: 500
+  display: flex
+  margin: 0 auto
+  align-items: center
+  justify-content: center
+  overflow: hidden
+  &:before,&:after
+    content: ''
+    width: 100%
+    display: inline-block
+    vertical-align: middle
+    box-sizing: border-box
+    border: solid #FFF
+    border-width: 0 20px
+    height: 2px
+    background: #d9d9d9
+  &:before
+    margin-left: -100%
+  &:after
+    margin-right: -100%
+
+.add-to-order__list
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+
+.add-to-order__item
+  margin-right: 19px
+  margin-bottom: 15px
+  @media screen and (max-width: $mobile)
+    margin-right: 0
+
+.add-to-order__item_last
+  margin-right: 0
+
+.add-to-order__link
+  width: 278px
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.add-to-order__image
+  margin-bottom:  9px
+  border: none
+
+.add-to-order__name
+  text-align: center
+  font-size: 16px
+  margin-bottom:  7px
+
+.add-to-order__price
+  font-size: 16px
+  font-weight: 500

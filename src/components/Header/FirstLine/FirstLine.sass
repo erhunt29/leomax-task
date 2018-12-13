@@ -1,0 +1,63 @@
+.first-line__wrapper-1
+  position: absolute
+  top: 0
+  left: 0
+  height: 40px
+  width: 100%
+  background-color: #e4e4e4
+  z-index: -10
+
+.first-line
+  height: 40px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background-color: rgba(0,0,0,0.0)
+  @media screen and (max-width: $mobile)
+    justify-content: center
+
+.first-line__wrap-1
+  display: flex
+  align-items: center
+  @media screen and (max-width: $tablet)
+    flex-direction: column
+
+.first-line__number
+  font-size: 18px
+  font-weight: 400
+  @media screen and (max-width: $tablet)
+    font-size: 14px
+
+.first-line__label
+  font-size: 12px
+  font-weight: 400
+  padding-left: 7px
+  padding-top: 2px
+  @media screen and (max-width: $tablet)
+    width: 180px
+
+
+.blog-list
+  display: flex
+  align-items: center
+  font-size: 14px
+  font-weight: 400
+  @media screen and (max-width: $mobile)
+    display: none
+
+.blog-list__label
+  @media screen and (max-width: $mobile)
+    display: none
+
+.blog-list__item
+  margin-left: 30px
+  display: flex
+  align-items: center
+
+.blog-list__link
+  display: flex
+  align-items: center
+
+.blog-list__logo
+  margin-right: 7px
+  border: none

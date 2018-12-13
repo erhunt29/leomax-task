@@ -1,0 +1,136 @@
+.first-line__wrapper-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #e4e4e4;
+  z-index: -10;
+}
+
+.first-line {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.first-line__wrap-1 {
+  display: flex;
+  align-items: center;
+}
+
+.first-line__number {
+  font-size: 18px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1200px) {
+  .first-line__number {
+    font-size: 14px;
+  }
+}
+
+.first-line__label {
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 7px;
+  padding-top: 2px;
+}
+
+.blog-list {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.blog-list__item {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.blog-list__link {
+  display: flex;
+  align-items: center;
+}
+
+.blog-list__logo {
+  margin-right: 7px;
+}
+
+.second-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-line__wrapper-1 {
+  display: flex;
+  align-items: center;
+  height: 87px;
+}
+
+.second-line__logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__label {
+  padding-left: 8px;
+  padding-top: 12px;
+  font-family: "Dear Joe";
+  font-size: 50px;
+}
+
+.second-line__search {
+  font-size: 14px;
+  font-weight: 400;
+  width: 225px;
+  height: 30px;
+  margin-top: -5px;
+  margin-left: 115px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../../images/search.png");
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.second-line__search::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+.second-line__search:focus {
+  outline: none;
+}
+
+.second-line__wrapper-2 {
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user__name {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.second-line__cart {
+  display: flex;
+  margin-left: 55px;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+.cart__image {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=Header.css.map */
